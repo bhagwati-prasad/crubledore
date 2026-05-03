@@ -207,7 +207,7 @@ main {
     margin-top: auto;
 }
 
-.btn-wa {
+.btn_wa {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -224,7 +224,7 @@ main {
     box-sizing: border-box;
 }
 
-.btn-wa:hover, .btn-wa:focus {
+.btn_wa:hover, .btn_wa:focus {
     filter: brightness(0.9);
     outline: 2px solid var(--primary);
     outline-offset: 2px;
