@@ -6,14 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crumbledore - Freshly Made Healthy Treats</title>
 
-    <meta name="description"
-        content="Handcrafted cakes & baked goods for birthdays, anniversaries, and every celebration. Fresh daily, custom orders, home delivery.">
+    <meta name="description" content="Handcrafted cakes & baked goods for birthdays, anniversaries, and every celebration. Fresh daily, custom orders, home delivery.">
     <meta name="theme-color" content="#B8622E">
 
-    <!-- Open Graph (Instagram/Facebook previews) -->
     <meta property="og:title" content="Crumbledore - Freshly Made Healthy Treats">
-    <meta property="og:description"
-        content="Freshly made healthy treats. Birthdays, anniversaries, office events. Order on WhatsApp.">
+    <meta property="og:description" content="Freshly made healthy treats. Birthdays, anniversaries, office events. Order on WhatsApp.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="/og-image.jpg">
     <link rel="stylesheet" href="./css/reset.css">
@@ -22,140 +19,157 @@
 
 <body>
     <div id="page">
-        <header>
-            <span class="hamburger" aria-label="Menu" role="button" tabindex="0"></span>
-            <h1><a href="/">Crumbledore <span>Freshly Made Healthy Treats</span></a></h1>
-            <nav>
+        <header id="topHeader">
+            <span id="hamburger" aria-label="Menu" role="button" tabindex="0"></span>
+            <h1>
+                <a href="/">
+                    Crumbledore
+                    <span>Freshly Made Healthy Treats</span>
+                </a>
+            </h1>
+            <nav id="siteNav">
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="/nutrition-calculator">Nutrition Calculator</a></li>
                     <li><a href="/about">About</a></li>
                 </ul>
             </nav>
-            <a href="./cart.html" aria-label="Cart" role="button" tabindex="0"></a>
+            <nav>
+                <a href="./cart.html" aria-label="Cart" role="button" tabindex="0" class="fa fa-shopping-cart"></a>
+                <a href="https://wa.me/1234567890" aria-label="WhatsApp" role="button" tabindex="0" class="fa-brands fa-whatsapp"></a>
+                <span aria-label="account" role="button" tabindex="0" class="fa-solid fa-user"></span>
+            </nav>
+            <a href="https://wa.me/8368532373?text=Hi. I'd like to place an order." class="wa_order" target="_blank"></a>
         </header>
         <main>
             <aside>
 
             </aside>
-            <section>
-                <article class="card">
-                    <header>Cake Name</header>
+            <section class="product-grid" aria-label="Our Cake Selection">
+                <article class="card" itemscope itemtype="https://schema.org/Product">
                     <figure>
-                        <img src="./img/1.jpg" alt="A delicious cake with fresh fruits on top">
-                        <figcaption>Freshly made healthy treats for every occasion</figcaption>
+                        <img src="./img/1.jpg"alt="A delicious cake with fresh fruits on top" itemprop="image" loading="lazy" width="400" height="300">
+                        <figcaption>Cocoa sprinkles on vanilla cream cake</figcaption>
                     </figure>
+                    <div class="card-content">
+                        <header>
+                            <h3 class="card-title" itemprop="name">Premium Fruit Cake</h3>
+                        </header>
+                        
+                        <p class="card-description" itemprop="description">
+                            Freshly made healthy treats for every occasion, topped with seasonal fruits and baked to perfection.
+                        </p>
+                    </div>
                     <footer>
-                        <span>Add to cart</span>
-                        <span>Whatsapp</span>
+                        <a href="https://wa.me/8368532373?text=Hi. I'd like to place an order." class="center_vert" target="_blank"rel="noopener noreferrer" aria-label="Order Premium Fruit Cake via WhatsApp"><span class="wa_order"></span> Whatsapp</a>
                     </footer>
                 </article>
-            <section>
-                <article class="card">
-                    <header>Cake Name</header>
+                <article class="card" itemscope itemtype="https://schema.org/Product">
                     <figure>
-                        <img src="./img/1.jpg" alt="A delicious cake with fresh fruits on top">
-                        <figcaption>Freshly made healthy treats for every occasion</figcaption>
+                        <img src="./img/1.jpg"alt="A delicious cake with fresh fruits on top" itemprop="image" loading="lazy" width="400" height="300">
+                        <figcaption>Cocoa sprinkles on vanilla cream cake</figcaption>
                     </figure>
+                    <div class="card-content">
+                        <header>
+                            <h3 class="card-title" itemprop="name">Premium Fruit Cake</h3>
+                        </header>
+                        
+                        <p class="card-description" itemprop="description">
+                            Freshly made healthy treats for every occasion, topped with seasonal fruits and baked to perfection.
+                        </p>
+                    </div>
                     <footer>
-                        <span>Add to cart</span>
-                        <span>Whatsapp</span>
+                        <a href="https://wa.me/8368532373?text=Hi. I'd like to place an order." class="center_vert" target="_blank"rel="noopener noreferrer" aria-label="Order Premium Fruit Cake via WhatsApp"><span class="wa_order"></span> Whatsapp</a>
                     </footer>
                 </article>
-            <section>
-                <article class="card">
-                    <header>Cake Name</header>
+                <article class="card" itemscope itemtype="https://schema.org/Product">
                     <figure>
-                        <img src="./img/1.jpg" alt="A delicious cake with fresh fruits on top">
-                        <figcaption>Freshly made healthy treats for every occasion</figcaption>
+                        <img src="./img/1.jpg"alt="A delicious cake with fresh fruits on top" itemprop="image" loading="lazy" width="400" height="300">
+                        <figcaption>Cocoa sprinkles on vanilla cream cake</figcaption>
                     </figure>
+                    <div class="card-content">
+                        <header>
+                            <h3 class="card-title" itemprop="name">Premium Fruit Cake</h3>
+                        </header>
+                        
+                        <p class="card-description" itemprop="description">
+                            Freshly made healthy treats for every occasion, topped with seasonal fruits and baked to perfection.
+                        </p>
+                    </div>
                     <footer>
-                        <span>Add to cart</span>
-                        <span>Whatsapp</span>
+                        <a href="https://wa.me/8368532373?text=Hi. I'd like to place an order." class="center_vert" target="_blank"rel="noopener noreferrer" aria-label="Order Premium Fruit Cake via WhatsApp"><span class="wa_order"></span> Whatsapp</a>
                     </footer>
                 </article>
-            <section>
-                <article class="card">
-                    <header>Cake Name</header>
+                <article class="card" itemscope itemtype="https://schema.org/Product">
                     <figure>
-                        <img src="./img/1.jpg" alt="A delicious cake with fresh fruits on top">
-                        <figcaption>Freshly made healthy treats for every occasion</figcaption>
+                        <img src="./img/1.jpg"alt="A delicious cake with fresh fruits on top" itemprop="image" loading="lazy" width="400" height="300">
+                        <figcaption>Cocoa sprinkles on vanilla cream cake</figcaption>
                     </figure>
+                    <div class="card-content">
+                        <header>
+                            <h3 class="card-title" itemprop="name">Premium Fruit Cake</h3>
+                        </header>
+                        
+                        <p class="card-description" itemprop="description">
+                            Freshly made healthy treats for every occasion, topped with seasonal fruits and baked to perfection.
+                        </p>
+                    </div>
                     <footer>
-                        <span>Add to cart</span>
-                        <span>Whatsapp</span>
+                        <a href="https://wa.me/8368532373?text=Hi. I'd like to place an order." class="center_vert" target="_blank"rel="noopener noreferrer" aria-label="Order Premium Fruit Cake via WhatsApp"><span class="wa_order"></span> Whatsapp</a>
                     </footer>
                 </article>
-            <section>
-                <article class="card">
-                    <header>Cake Name</header>
+                <article class="card" itemscope itemtype="https://schema.org/Product">
                     <figure>
-                        <img src="./img/1.jpg" alt="A delicious cake with fresh fruits on top">
-                        <figcaption>Freshly made healthy treats for every occasion</figcaption>
+                        <img src="./img/1.jpg"alt="A delicious cake with fresh fruits on top" itemprop="image" loading="lazy" width="400" height="300">
+                        <figcaption>Cocoa sprinkles on vanilla cream cake</figcaption>
                     </figure>
+                    <div class="card-content">
+                        <header>
+                            <h3 class="card-title" itemprop="name">Premium Fruit Cake</h3>
+                        </header>
+                        
+                        <p class="card-description" itemprop="description">
+                            Freshly made healthy treats for every occasion, topped with seasonal fruits and baked to perfection.
+                        </p>
+                    </div>
                     <footer>
-                        <span>Add to cart</span>
-                        <span>Whatsapp</span>
+                        <a href="https://wa.me/8368532373?text=Hi. I'd like to place an order." class="center_vert" target="_blank"rel="noopener noreferrer" aria-label="Order Premium Fruit Cake via WhatsApp"><span class="wa_order"></span> Whatsapp</a>
                     </footer>
                 </article>
-            <section>
-                <article class="card">
-                    <header>Cake Name</header>
+                <article class="card" itemscope itemtype="https://schema.org/Product">
                     <figure>
-                        <img src="./img/1.jpg" alt="A delicious cake with fresh fruits on top">
-                        <figcaption>Freshly made healthy treats for every occasion</figcaption>
+                        <img src="./img/1.jpg"alt="A delicious cake with fresh fruits on top" itemprop="image" loading="lazy" width="400" height="300">
+                        <figcaption>Cocoa sprinkles on vanilla cream cake</figcaption>
                     </figure>
+                    <div class="card-content">
+                        <header>
+                            <h3 class="card-title" itemprop="name">Premium Fruit Cake</h3>
+                        </header>
+                        
+                        <p class="card-description" itemprop="description">
+                            Freshly made healthy treats for every occasion, topped with seasonal fruits and baked to perfection.
+                        </p>
+                    </div>
                     <footer>
-                        <span>Add to cart</span>
-                        <span>Whatsapp</span>
+                        <a href="https://wa.me/8368532373?text=Hi. I'd like to place an order." class="center_vert" target="_blank"rel="noopener noreferrer" aria-label="Order Premium Fruit Cake via WhatsApp"><span class="wa_order"></span> Whatsapp</a>
                     </footer>
                 </article>
-            <section>
-                <article class="card">
-                    <header>Cake Name</header>
+                <article class="card" itemscope itemtype="https://schema.org/Product">
                     <figure>
-                        <img src="./img/1.jpg" alt="A delicious cake with fresh fruits on top">
-                        <figcaption>Freshly made healthy treats for every occasion</figcaption>
+                        <img src="./img/1.jpg"alt="A delicious cake with fresh fruits on top" itemprop="image" loading="lazy" width="400" height="300">
+                        <figcaption>Cocoa sprinkles on vanilla cream cake</figcaption>
                     </figure>
+                    <div class="card-content">
+                        <header>
+                            <h3 class="card-title" itemprop="name">Premium Fruit Cake</h3>
+                        </header>
+                        
+                        <p class="card-description" itemprop="description">
+                            Freshly made healthy treats for every occasion, topped with seasonal fruits and baked to perfection.
+                        </p>
+                    </div>
                     <footer>
-                        <span>Add to cart</span>
-                        <span>Whatsapp</span>
-                    </footer>
-                </article>
-            <section>
-                <article class="card">
-                    <header>Cake Name</header>
-                    <figure>
-                        <img src="./img/1.jpg" alt="A delicious cake with fresh fruits on top">
-                        <figcaption>Freshly made healthy treats for every occasion</figcaption>
-                    </figure>
-                    <footer>
-                        <span>Add to cart</span>
-                        <span>Whatsapp</span>
-                    </footer>
-                </article>
-            <section>
-                <article class="card">
-                    <header>Cake Name</header>
-                    <figure>
-                        <img src="./img/1.jpg" alt="A delicious cake with fresh fruits on top">
-                        <figcaption>Freshly made healthy treats for every occasion</figcaption>
-                    </figure>
-                    <footer>
-                        <span>Add to cart</span>
-                        <span>Whatsapp</span>
-                    </footer>
-                </article>
-            <section>
-                <article class="card">
-                    <header>Cake Name</header>
-                    <figure>
-                        <img src="./img/1.jpg" alt="A delicious cake with fresh fruits on top">
-                        <figcaption>Freshly made healthy treats for every occasion</figcaption>
-                    </figure>
-                    <footer>
-                        <span>Add to cart</span>
-                        <span>Whatsapp</span>
+                        <a href="https://wa.me/8368532373?text=Hi. I'd like to place an order." class="center_vert" target="_blank"rel="noopener noreferrer" aria-label="Order Premium Fruit Cake via WhatsApp"><span class="wa_order"></span> Whatsapp</a>
                     </footer>
                 </article>
             </section>
@@ -163,6 +177,6 @@
         <footer>
         </footer>
     </div>
+    <script src="./js/scripts.js"></script>
 </body>
-
 </html>
